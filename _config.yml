@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://top1436.github.io/"
+url: "https://bookfeel.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Jun-Yeong's Tech BLOG
+  title: BOKFEEL Tech BLOG
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
