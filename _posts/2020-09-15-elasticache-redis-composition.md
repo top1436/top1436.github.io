@@ -17,7 +17,7 @@ tags: [AWS, aws, elasticache, redis]
     3.1 redis와 같은 VPC, subnet들 중 하나 내에 생성
 
 ## 4. **`1.1 VPC` 의 SG inbound 규칙에  6379 추가  or All traffic, source에 EC2가 쓰고 있는 SG 할당**
-![4-inbound-rules](../assets/img/2020-09-15/4-inbound-rules.png)   
+![4-inbound-rules](/assets/img/2020-09-15/4-inbound-rules.png)   
 - `source에 EC2가 쓰고 있는 SG 할당!!!!!`
 - `sg-0bd540c058d18a0d8 (launch-wizard-4)` 는 ec2가 사용하고있는 sg
   
@@ -48,4 +48,4 @@ nvm install 12.18.1
     9.2 클러스터 구성 활성화 시, npm "redis" 모듈 사용불가("ioredis" 사용해야 한다)
 
 # 10. 완성된 test-redis 구성도
-![10-complete-architecture](../assets/img/2020-09-15/10-complete-architecture.png)
+![10-complete-architecture](/assets/img/2020-09-15/10-complete-architecture.png)
